@@ -152,19 +152,37 @@
 
 * onetime
 
-* 
+## REPEATER :-
+
+- LAN - 0-99
+
+- Boost the Signal
+
+## Modem :-
+
+- Modems are used to transmit digital information via analog systems .
+
+- The word  `modem` is derived from the term "modulator-demodulator."
+
+- The essential functions of a modem are to modulate an analog carrier signal to carry digital information;
+
+- and to demodulate a similar signal so as to decode the digital information from the analog carrier signal.
+
+
 
 ## Router :-
 
 - Routers are multiport devices with high - speed backbones 
 
-- Like bridges routers are also self - learning , as they can communicate their existance . to other devices and can learn of the existance of new routes , nodes and LAN  segments .
+- Routers also support filtering and encapsulation like bridges .
 
-- As explained earlier , they route traffic by considering the network as a whole . It shows than they use a high level of intelleginet to accomplish this task .
+- Like bridges routers are also self - learning , as they can communicate their existance . to other devices and can learn of the existance of new routers , nodes and LAN  segments .
 
-- This characteristics makes them superior than hubs and bridges because they simply view the network on a link - by - link basis .
+- As explained earlier , they route traffic by considering the network as a whole . It shows than they use a high level of intelligence to accomplish this task .
 
-- The packet handled by router may include destination address , packet priority , level , least - cost route , minimum route delay , minimum route distance , and route congestion level 
+- This characteristics makes than superior than hubs and bridges because they simply view the network on a link - by - link basis .
+
+- The packet handled by router may include destination address , packet priority , level , least - cost route , minimum route delay , minimum route distance , and route congestion level .
 
 - Routers constantly monitor the condition of the network , as a whole to dynamically adapt to changes in the condition of the network They typically provide some level of redundancy so that they are less susceptible to catastrophic failure .
 
@@ -184,4 +202,53 @@
 
 ## NIC :-
 
-- 
+- NIC allows both wired and wireless communications.
+
+- NIC allows communications between computers connected via local area network (LAN) as well as communications over large - scale network through Internet Protocal (IP).
+
+- NIC is both physical layer and a data link layer device , i.e it provides the necessary hardware circuitry so that the physical layer process and some data link layer processws can run on it .
+
+## OSI Model :-
+
+1. Application Layer :
+
+* Create an interface between user and application
+
+2. Presentation Layer :
+
+* Create and manage Data Encode , Encrypt , Compress
+
+3. Session Layer :
+
+* Check target connectivity 
+
+4. Transport Layer :
+
+* Use TCP and UDP to transport the data 
+
+5. Network Layer :
+
+* Check best path for transmission 
+
+6. Data Link Layer :
+
+* Work on two sublayer 1 - LLC 2 - MAC
+
+7. Physical Layer :
+
+* Check physical connection
+
+
+## TCP/IP Model :
+
+```css
+---------------------------------------------------------
+TCP/IP Model     Protocals and services       OSI Model
+---------------------------------------------------------
+            |                           |Application
+Application | HTTP,FTP,TELENT           |Presentation
+            | NTP,DHCP,PING             |Session
+-------------------------------------------------------
+```
+
+
