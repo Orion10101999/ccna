@@ -34,13 +34,13 @@
 
 ## Types of Computer Network ?
 
-* LAN
+* LAN   --> Small Area
 
-* MAN
+* MAN   --> LAN + LAN
 
-* CAN
+* CAN   --> campus
 
-* WAN
+* WAN   --> geo
 
 * PAN
 
@@ -98,6 +98,61 @@
 * ACCESS POINT 
 
 * NIC CARD
+
+## Bridge :-
+
+* Bridge Connect two network segment to each other
+
+## HUB :-
+
+* single network segment convert multiple port .
+
+* Broadcast
+
+* traffic , collision 
+
+* HDX
+
+## Switch :-
+
+* L2 & L3
+
+* one segment into multiple segment
+
+* Deliver the packet exact location
+
+* ARP + RARP
+
+* Single Network segment into multiple segment
+
+* sequre 
+
+* exact location
+
+* ARP + RARP
+
+* do not broadcast the information
+
+* L2
+
+* L3
+
+* ARP = IP - MAC
+
+* RARP = MAC - IP
+
+* CAM = content address memory
+
+* IP        |       MAc
+            |
+10.0.0.9    |       A
+10.0.0.2    |       B
+
+* AutoNegogiation - 
+
+* onetime
+
+* 
 
 ## Router :-
 
