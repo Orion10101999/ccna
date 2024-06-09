@@ -245,9 +245,19 @@
 ---------------------------------------------------------
 TCP/IP Model     Protocals and services       OSI Model
 ---------------------------------------------------------
-            |                           |Application
-Application | HTTP,FTP,TELENT           |Presentation
-            | NTP,DHCP,PING             |Session
+            |      HTTP , FTP           | Application
+Application |      TELENT , NTP         | Presentation
+            |      DHCP , PING          | Session
+-------------------------------------------------------
+            |                           |
+Transport   |      TCP , UDP            |   Transport
+            |                           |
+-------------------------------------------------------
+NETWORK     | IP,ARP,ICMP,IGMP          |   NETWORK
+            |                           |
+-------------------------------------------------------
+NETWORK     |   Ethernet                |   Data Link
+Interface   |                           |   Physical
 -------------------------------------------------------
 ```
 
